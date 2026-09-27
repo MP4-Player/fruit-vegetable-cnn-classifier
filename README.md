@@ -39,13 +39,17 @@ pip install -r requirements.txt
 jupyter notebook fruit_classifier.ipynb
 ```
 
-Set `PATH` in the notebook to a dataset folder with this layout (not included in the repository):
+Download the dataset (`frukta.zip`, 22,495 images) from the [release of neural-networks-deep-learning-labs](https://github.com/MP4-Player/neural-networks-deep-learning-labs/releases/tag/v1.0), unpack it and set `PATH` in the notebook to the dataset folder. Layout:
 
 ```
 <dataset>/
   train/berrie/  train/fruits/  train/vegeta/
   test/*.jpg
 ```
+
+## Later versions
+
+[`drafts/`](drafts) contains later iterations of the same classifier: `ai1.ipynb` (2025) and the script version `ai-7-f.py`. The same dataset was reused in 2026 for the CNN and transfer-learning labs in [neural-networks-deep-learning-labs](https://github.com/MP4-Player/neural-networks-deep-learning-labs).
 
 ## Tech stack
 
